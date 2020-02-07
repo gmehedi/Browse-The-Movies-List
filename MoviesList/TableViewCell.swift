@@ -9,6 +9,13 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
+    
+    static let id = "TableViewCell"
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var serialLabel: UILabel!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
