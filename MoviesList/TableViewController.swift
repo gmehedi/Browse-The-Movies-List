@@ -28,8 +28,6 @@ class TableViewController: UIViewController {
         descriptionArray = dict!.object(forKey: "description") as! [String]
         len = serialArray.count
         
-        //print("L  \(len!)")
-        
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.tableView.tableFooterView = UIView(frame: CGRect.zero)
@@ -52,7 +50,7 @@ extension TableViewController: UITableViewDataSource, UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 96.00
+        return 88.00
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
