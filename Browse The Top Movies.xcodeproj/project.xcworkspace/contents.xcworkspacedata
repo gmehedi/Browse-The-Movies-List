@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MoviesList.xcodeproj">
+      location = "self:/Users/user/Desktop/IOS/MoviesList/Browse The Top Movies.xcodeproj">
    </FileRef>
 </Workspace>
