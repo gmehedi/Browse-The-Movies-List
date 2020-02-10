@@ -12,7 +12,7 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class MoviesViewCell: UITableViewCell {
     
     static let id = "TableViewCell"
     

@@ -43,7 +43,7 @@ extension TableViewController: UITableViewDataSource, UITableViewDelegate{
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return len
+        return serialArray.count
     }
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return String("The Least Of The Movies")
@@ -60,6 +60,7 @@ extension TableViewController: UITableViewDataSource, UITableViewDelegate{
         cell?.descriptionLabel.text = self.descriptionArray[indexPath.row]
         cell?.nameLabel.text = self.nameArray[indexPath.row]
         cell?.serialLabel.text = self.serialArray[indexPath.row]
+        
         
         return cell!
         

@@ -9,11 +9,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="96" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="MoviesList" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" userLabel="MoviesViewCell" customClass="TableViewCell" customModule="Browse_The_Top_Movies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnJ-xf-1oj">
@@ -35,11 +35,8 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsu-tt-BBR">
-                        <rect key="frame" x="34" y="41" width="278" height="40"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="40" id="XbY-qc-pwF"/>
-                        </constraints>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsu-tt-BBR">
+                        <rect key="frame" x="34" y="41" width="278" height="100"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -52,6 +49,7 @@
                     <constraint firstItem="Tsu-tt-BBR" firstAttribute="top" secondItem="OnJ-xf-1oj" secondAttribute="bottom" constant="1" id="K4V-xH-ikI"/>
                     <constraint firstItem="ZxY-Hs-bWv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="1" id="Pal-Ge-Iiw"/>
                     <constraint firstAttribute="trailing" secondItem="Tsu-tt-BBR" secondAttribute="trailing" constant="8" id="S2U-Uv-EQJ"/>
+                    <constraint firstAttribute="bottom" secondItem="Tsu-tt-BBR" secondAttribute="bottom" constant="5" id="cdl-Wx-Ns6"/>
                     <constraint firstItem="Tsu-tt-BBR" firstAttribute="leading" secondItem="ZxY-Hs-bWv" secondAttribute="trailing" constant="1" id="rNd-r4-c5J"/>
                     <constraint firstItem="ZxY-Hs-bWv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="veX-MY-xVm"/>
                 </constraints>
@@ -62,7 +60,7 @@
                 <outlet property="nameLabel" destination="OnJ-xf-1oj" id="RLs-Fj-hkI"/>
                 <outlet property="serialLabel" destination="ZxY-Hs-bWv" id="cBz-4i-jdb"/>
             </connections>
-            <point key="canvasLocation" x="137.68115942028987" y="74.330357142857139"/>
+            <point key="canvasLocation" x="137.68115942028987" y="91.071428571428569"/>
         </tableViewCell>
     </objects>
 </document>

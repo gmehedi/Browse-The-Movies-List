@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		CE2634D123EC8D95001D1059 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		CE2634D223EC8D95001D1059 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		CE4A280D23EC3112003D7E4C /* MoviesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4A280D23EC3112003D7E4C /* Browse The Top Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Browse The Top Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4A281023EC3112003D7E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4A281223EC3112003D7E4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE4A281423EC3112003D7E4C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -82,15 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE2634D023EC866B001D1059 /* AllDelegates */ = {
-			isa = PBXGroup;
-			children = (
-				CE4A281223EC3112003D7E4C /* SceneDelegate.swift */,
-				CE4A281023EC3112003D7E4C /* AppDelegate.swift */,
-			);
-			path = AllDelegates;
-			sourceTree = "<group>";
-		};
 		CE4A280423EC3112003D7E4C = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +95,7 @@
 		CE4A280E23EC3112003D7E4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE4A280D23EC3112003D7E4C /* MoviesList.app */,
+				CE4A280D23EC3112003D7E4C /* Browse The Top Movies.app */,
 				CE4A282323EC3115003D7E4C /* MoviesListTests.xctest */,
 				CE4A282E23EC3115003D7E4C /* MoviesListUITests.xctest */,
 			);
@@ -116,9 +107,10 @@
 			children = (
 				CE2634D123EC8D95001D1059 /* TableViewCell.swift */,
 				CE2634D223EC8D95001D1059 /* TableViewCell.xib */,
-				CE2634D023EC866B001D1059 /* AllDelegates */,
 				CE4A281423EC3112003D7E4C /* TableViewController.swift */,
 				CE4A281623EC3112003D7E4C /* Main.storyboard */,
+				CE4A281023EC3112003D7E4C /* AppDelegate.swift */,
+				CE4A281223EC3112003D7E4C /* SceneDelegate.swift */,
 				CE4A284023EC3214003D7E4C /* MoviesList.plist */,
 				CE4A281923EC3114003D7E4C /* Assets.xcassets */,
 				CE4A281B23EC3114003D7E4C /* LaunchScreen.storyboard */,
@@ -162,7 +154,7 @@
 			);
 			name = MoviesList;
 			productName = MoviesList;
-			productReference = CE4A280D23EC3112003D7E4C /* MoviesList.app */;
+			productReference = CE4A280D23EC3112003D7E4C /* Browse The Top Movies.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CE4A282223EC3115003D7E4C /* MoviesListTests */ = {
@@ -460,8 +452,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MatrixSolution.MoviesList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "MatrixSolution.Browse-The-Top-Movies";
+				PRODUCT_NAME = "Browse The Top Movies";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,8 +469,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MatrixSolution.MoviesList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "MatrixSolution.Browse-The-Top-Movies";
+				PRODUCT_NAME = "Browse The Top Movies";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
