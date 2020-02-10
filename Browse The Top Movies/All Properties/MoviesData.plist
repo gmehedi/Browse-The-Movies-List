@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>American Hangman</string>
+		<key>Description</key>
+		<string>Wilson Coneybeare (director/screenplay); Donald Sutherland, Vincent Kartheiser, Oliver Dennis, Paul Braunstein</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Close</string>
+		<key>Description</key>
+		<string>Vicky Jewson (director); Vicky Jewson, Rupert Whitaker (screenplay); Noomi Rapace, Sophie Nélisse, Indira Varma, Eoin Macken</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Captain Marvel</string>
+		<key>Description</key>
+		<string>Anna Boden, Ryan Fleck (directors/screenplay); Geneva Robertson-Dworet (screenplay); Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Djimon Hounsou, Lee Pace, Lashana Lynch, Gemma Chan, Annette Bening, Clark Gregg, Jude Law</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>The Highwaymen</string>
+		<key>Description</key>
+		<string>John Lee Hancock (director); John Fusco (screenplay); Kevin Costner, Woody Harrelson, Kathy Bates, John Carroll Lynch, Kim Dickens, Thomas Mann, William Sadler</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Breakthrough</string>
+		<key>Description</key>
+		<string>Roxann Dawson (director); Grant Nieporte (screenplay); Chrissy Metz, Josh Lucas, Topher Grace, Mike Colter, Marcel Ruiz, Sam Trammell, Dennis Haysbert</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Why Cheat India</string>
+		<key>Description</key>
+		<string>Emraan HashmiShreya Dhanwanthary</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Hotel Mumbai</string>
+		<key>Description</key>
+		<string>Anthony Maras (director); John Collee, Anthony Maras (screenplay); Dev Patel, Armie Hammer, Nazanin Boniadi, Tilda Cobham-Hervey, Anupam Kher, Jason Isaacs</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>The Dirt</string>
+		<key>Description</key>
+		<string>Jeff Tremaine (director): Tom Kapinos, Amanda Adelson, Rich Wilkes (screenplay); Douglas Booth, Iwan Rheon, Machine Gun Kelly, Daniel Webber</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Aladdin</string>
+		<key>Description</key>
+		<string>Guy Ritchie (director/screenplay); John August (screenplay); Mena Massoud, Will Smith, Naomi Scott, Marwan Kenzari, Navid Negahban, Nasim Pedrad, Billy Magnussen, Numan Acar, Alan Tudyk, Frank Welker</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>The Secret Life of Pets 2</string>
+		<key>Description</key>
+		<string>Chris Renaud (director); Jonathan del Val (co-director); Brian Lynch (screenplay); Patton Oswalt, Eric Stonestreet, Kevin Hart, Jenny Slate, Tiffany Haddish, Lake Bell, Nick Kroll, Dana Carvey, Ellie Kemper, Chris Renaud, Hannibal Buress, Bobby Moynihan, Harrison Ford</string>
+	</dict>
+</array>
+</plist>
